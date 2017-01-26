@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+header .name{
+    color: black;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.nav_bar{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+.link{
+    font-size: 18px;
+    padding: 0 6px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    display: inline-block;
+    border-radius: 100%;
+    font-weight: 800;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.name h1{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.search_section{
+    margin-bottom: 30px;
+}
+
+.search_bar{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px;
+}
+
+.search_section button{
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.magnifying-glass-icon{
+    height: 100%;
+}
+
+.search_button{
+    vertical-align: bottom;
+}
+
+.pages {
+  display: inline-block; /* Tricky, this could start wrapping!  */
+  font-size: 0;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages_button{
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  
+}
+
+.display_page{
+  font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+.listing{
+    padding: 0;
+}
+
+.listing{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.dates, .location{
+    color: #999;
+}
+
+main li{
+    display: block;
+}
+
+.job_position{
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
